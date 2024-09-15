@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <fieldset>
+        <legend>
+            <h1>Enquiry Form</h1>
+        </legend>
+    <form action="">
+      <div>
+        <label for="">Full Name</label> <br />
+        <input type="text" placeholder="Enter Full Name" />
+      </div><br>
+      <div>
+        <label for="" align="left">Enter Email</label> <br />
+        <input type="Email" placeholder="Enter Email" />
+      </div><br>
+      <div>
+        <label for="">Enter Phone Number</label><br>
+        <input type="tel" pattern="[0-10]{10}" title="Enter the correct number" placeholder="Enter Phone Number">
+      </div><br>
+      <div>
+        <label for="">Message</label><br>
+        <textarea name="" id=""></textarea>
+      </div><br>
+      <div>
+        <label for="">Gender</label><br>
+        <input type="radio" value="male" name="gender">Male
+        <input type="radio" value="female" name="gender">Female
+        <input type="radio" value="Donotspecify" name="gender">Do not Specify
+      </div><br>
+      <div>
+        <label for="">Select Courses (Which you want to join)</label><br>
+        <input type="checkbox" value="php">PHP
+        <input type="checkbox" value="java">Java
+        <input type="checkbox" value="Python">Python
+      </div><br>
+      <div>
+        <label for="">Upload Your Photo</label><br>
+        <input type="file" accept=".png, .jpg, .svg">
+      </div><br>
+      <div>
+        <label for="">Password</label><br>
+        <input type="password" placeholder="Enter Password">
+      </div><br>
+      <div>
+        <label for="">Select Your COuntry</label><br>
+        <select name="" id="">
+            <option value="">----Select----</option>
+            <option value="">Pakistan</option>
+            <option value="">England</option>
+            <option value="">United States of America</option>
+            <option value="">United Kingdom</option>
+            <option value="">Germany</option>
+            <option value="">Scotland</option>
+        </select>
+      </div><br>
+      <div>
+        <select>
+            <option value="">----Select----</option>
+            <optgroup label="Front-End">
+                <option value="">HTML</option>
+                <option value="">CSS3</option>
+                <option value="">Javascript</option>
+                <Option>React</Option>
+            </optgroup>
+            <optgroup label="Back-End"></optgroup>
+                <option value="">PHP</option>
+                <option value="">Node JS</option>
+                <option value="">Python</option>
+                <Option>SQL</Option>
+            </optgroup>
+        </select>
+      </div><br>
+     <div>
+        <button color="green">Save</button>
+        <input type="submit" value="Go">
+     </div>
+    </form></fieldset>
+  </body>
+</html>

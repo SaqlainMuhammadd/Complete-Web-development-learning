@@ -1,0 +1,16 @@
+Header{
+    background-color: aqua;
+    text-align: center;
+}
+.main{
+    width: 1000px;
+    height: 540px;
+    background-color: yellow;
+}
+.row1{
+    width: 1000px;
+    height: 100px;
+    color: aliceblue;
+    font-size: 2rem;
+    background-color: blueviolet;
+}
